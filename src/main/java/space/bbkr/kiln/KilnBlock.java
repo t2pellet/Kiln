@@ -1,7 +1,5 @@
 package space.bbkr.kiln;
 
-import org.jetbrains.annotations.Nullable;
-
 import net.minecraft.block.AbstractFurnaceBlock;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -24,7 +22,6 @@ public class KilnBlock extends AbstractFurnaceBlock {
 		}
 	}
 
-	@Nullable
 	@Override
 	public BlockEntity createBlockEntity(BlockView world) {
 		return new KilnBlockEntity();
