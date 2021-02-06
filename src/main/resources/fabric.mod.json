@@ -19,6 +19,9 @@
       "space.bbkr.kiln.client.KilnClient"
     ]
   },
+  "mixins": [
+    "mixins.kiln.json"
+  ],
   "accessWidener": "kiln.accesswidener",
   "depends": {
     "fabricloader": ">=0.4.0"

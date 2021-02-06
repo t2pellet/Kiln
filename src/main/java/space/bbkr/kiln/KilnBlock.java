@@ -1,8 +1,10 @@
 package space.bbkr.kiln;
 
 import net.minecraft.block.AbstractFurnaceBlock;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
@@ -25,5 +27,14 @@ public class KilnBlock extends AbstractFurnaceBlock {
 	@Override
 	public BlockEntity createBlockEntity(BlockView world) {
 		return new KilnBlockEntity();
+	}
+
+	@Override
+	public BlockState getPlacementState(ItemPlacementContext ctx) {
+		BlockState state = super.getPlacementState(ctx);
+		if (ctx.getWorld().getDimension().isUltrawarm()) {
+			return state.with(AbstractFurnaceBlock.LIT, true);
+		}
+		return state;
 	}
 }
