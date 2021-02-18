@@ -1,7 +1,7 @@
 {
   "type": "kiln:firing",
   "ingredient": {
-    "item": "minecraft:bue_terracotta"
+    "item": "minecraft:blue_terracotta"
   },
   "result": "minecraft:blue_glazed_terracotta",
   "experience": 0.1,
