@@ -17,6 +17,9 @@
     ],
     "client": [
       "space.bbkr.kiln.client.KilnClient"
+    ],
+    "rei_plugins": [
+      "space.bbkr.kiln.compat.rei.KilnREIPlugin"
     ]
   },
   "mixins": [
