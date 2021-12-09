@@ -1,5 +1,6 @@
 {
   "block.kiln.kiln": "Kiln",
   "container.kiln.kiln": "Kiln",
-  "gui.recipebook.toggleRecipes.firable": "Showing Firable"
+  "gui.recipebook.toggleRecipes.firable": "Showing Firable",
+  "category.kiln.firing": "Firing"
 }
