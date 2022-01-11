@@ -3,7 +3,7 @@
 # Kiln
 
 
-[>> Downloads <<](https://github.com/Boundarybreaker/Kiln/releases)
+[>> Downloads <<](https://github.com/t2pellet/Kiln/releases)
 
 *Let's get fired up!*
 

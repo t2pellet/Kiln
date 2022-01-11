@@ -5,11 +5,13 @@
 
   "name": "Kiln",
   "icon": "assets/kiln/textures/block/kiln_on.png",
-  "description": "Companion to smoker and blast furnace for smelting stones, sands, bricks, and more. Request from BluKat.",
-  "license": "MIT",
+  "description": "Companion to smoker and blast furnace for smelting stones, sands, bricks, and more.",
   "contact": {
-    "sources": "https://github.com/Boundarybreaker/Kiln"
+    "sources": "https://github.com/t2pellet/Kiln"
   },
+
+  "license": "MIT",
+
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -18,7 +20,7 @@
     "client": [
       "space.bbkr.kiln.client.KilnClient"
     ],
-    "rei_plugins": [
+    "rei": [
       "space.bbkr.kiln.compat.rei.KilnREIPlugin"
     ]
   },
@@ -26,7 +28,11 @@
     "mixins.kiln.json"
   ],
   "accessWidener": "kiln.accesswidener",
+
   "depends": {
-    "fabricloader": ">=0.4.0"
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
   }
 }

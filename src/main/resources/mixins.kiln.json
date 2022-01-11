@@ -3,6 +3,5 @@
   "package": "space.bbkr.kiln.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "AbstractFurnaceBlockEntityAccessor"
   ]
 }
